@@ -1,0 +1,31 @@
+{
+  "name": "@panda-clouds/clear-check",
+  "scripts": {
+    "pretest": "eslint --fix .",
+    "test": "jest"
+  },
+  "description": "<description>",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/panda-clouds/clear-check.git"
+  },
+  "author": {
+    "name": "Marc Smith",
+    "email": "mr.marcsmith@me.com",
+    "url": "https://github.com/mrmarcsmith"
+  },
+  "license": "MIT",
+  "main": "src/ClearCheck.js",
+  "engines": {
+    "node": ">= 8"
+  },
+  "devDependencies": {
+    "@panda-clouds/eslint-config-panda-clouds": "^0.9.0",
+    "eslint": "^6.6.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "request-promise": "^4.2.5"
+  }
+}
