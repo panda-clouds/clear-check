@@ -32,4 +32,6 @@ describe('the ClearCheck.js class', () => {
 
 		expect(result).toBeDefined();
 	});
+
+	// making changes
 });
