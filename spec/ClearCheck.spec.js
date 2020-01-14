@@ -33,5 +33,35 @@ describe('the ClearCheck.js class', () => {
 		expect(result).toBeDefined();
 	});
 
-	// making changes
+	describe('submitRequest', () => {
+		it('should thing', async () => {
+			expect.assertions(2);
+
+			const check = new ClearCheck(process.env.API_KEY);
+
+			expect(check).toBeDefined();
+
+			const result = await check.submitRequest('gjetson@spacely.com');
+
+			console.log(JSON.stringify(result, null, 2));
+
+			expect(result).toBeDefined();
+		});
+	});
+
+	describe('getReports', () => {
+		it('should thing', async () => {
+			expect.assertions(2);
+
+			const check = new ClearCheck(process.env.API_KEY);
+
+			expect(check).toBeDefined();
+
+			const result = await check.getReports();
+
+			console.log(JSON.stringify(result, null, 2));
+
+			expect(result).toBeDefined();
+		});
+	});
 });

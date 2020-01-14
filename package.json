@@ -26,6 +26,8 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
-    "request-promise": "^4.2.5"
+    "encodeurl": "^1.0.2",
+    "request-promise": "^4.2.5",
+    "urlencode": "^1.1.0"
   }
 }
